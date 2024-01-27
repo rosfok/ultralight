@@ -1,0 +1,61 @@
+html {
+    background-image: radial-gradient(ellipse at top left, sandybrown, gold, lemonchiffon);
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    height: 100vh;
+}
+
+#randomText {
+    font-size: 78px;
+    color: GoldenRod;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    padding: 100px;
+    text-align: center;
+    filter: blur(1px);
+    align-items: center;
+    justify-content: center;
+}
+
+.cornersun {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 800px;
+    font-weight: 20;
+    word-break: keep-all;
+    line-height: 4%;
+    color: orange;
+    filter: blur(17px);
+    /* SPINNING */
+    animation-name: spin;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.cornersun:hover {
+    cursor: pointer;
+  }
+
+.glow {
+    text-shadow: sandybrown 0 0 20px;
+}
