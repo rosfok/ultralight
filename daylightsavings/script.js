@@ -17,9 +17,15 @@ window.onload = function() {
   }
 
   var random_text_dst = [
-    "text one",
-    "text two",
-    "text three"
+    "G✺ne hiking.",
+    "G✺ne walking in the neighb✺rhood.",
+    "G✺ne t✺ the park t✺ play fetch with Hiccup.",
+    "G✺ne l✺✺king f✺r fl✺wers.",
+    "G✺ne snacking.",
+    "G✺ne pe✺ple watching.",
+    "G✺ne t✺ get an iced matcha.",
+    "G✺ne t✺ s✺me✺ne else's h✺use.",
+    "G✺ne.",
   ];
 
   var random_text_not_dst = [

@@ -15,23 +15,23 @@ body {
 }
 
 body.daylight-savings {
-    background-image: radial-gradient(ellipse at top left, sandybrown, PaleTurquoise, deepskyblue);
+    background-image: radial-gradient(ellipse at top left, gold, PaleTurquoise, deepskyblue);
 }
 
 body.daylight-savings #dst {
     font-size: 78px;
-    color: white;
+    color: skyblue;
     font-weight: 300;
     letter-spacing: -0.5px;
     padding: 100px;
     text-align: center;
-    filter: blur(1px);
+    filter: blur(2px);
     align-items: center;
     justify-content: center;
 }
 
 body.daylight-savings .cornersun {
-    color: yellow;
+    color: gold;
 
 }
 
@@ -42,7 +42,7 @@ body.daylight-savings .cornersun {
     letter-spacing: -0.5px;
     padding: 100px;
     text-align: center;
-    filter: blur(1px);
+    filter: blur(2px);
     align-items: center;
     justify-content: center;
 }
@@ -76,7 +76,3 @@ body.daylight-savings .cornersun {
 .cornersun:hover {
     cursor: pointer;
   }
-
-.glow {
-    text-shadow: sandybrown 0 0 20px;
-}
