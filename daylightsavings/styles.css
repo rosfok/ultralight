@@ -1,6 +1,4 @@
 html {
-    background-image: radial-gradient(ellipse at top left, sandybrown, gold, lemonchiffon);
-    background-repeat: no-repeat;
 }
 
 body {
@@ -12,9 +10,32 @@ body {
     align-items: flex-start; 
     justify-content: center;
     height: 100vh;
+    background-image: radial-gradient(ellipse at top left, sandybrown, gold, lemonchiffon);
+    background-repeat: no-repeat;
 }
 
-#randomText {
+body.daylight-savings {
+    background-image: radial-gradient(ellipse at top left, sandybrown, PaleTurquoise, deepskyblue);
+}
+
+body.daylight-savings #dst {
+    font-size: 78px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    padding: 100px;
+    text-align: center;
+    filter: blur(1px);
+    align-items: center;
+    justify-content: center;
+}
+
+body.daylight-savings .cornersun {
+    color: yellow;
+
+}
+
+#randomText, #not-dst {
     font-size: 78px;
     color: GoldenRod;
     font-weight: 300;
